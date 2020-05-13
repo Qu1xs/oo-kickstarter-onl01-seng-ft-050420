@@ -7,7 +7,10 @@ class Project
     @backers = []
   end
   
-  
+  def backers
+    bk = Backer.new()
+    @backers << bk
+  end
   
   
 end
