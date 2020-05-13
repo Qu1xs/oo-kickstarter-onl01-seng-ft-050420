@@ -8,8 +8,8 @@ class Project
     @backers = []
   end
   
-  def backers
-    bk = Backer.new()
+  def backers(backer)
+    bk = Backer.new(backer)
     @backers << bk
   end
   
