@@ -8,14 +8,4 @@ class Project
     @backers = []
   end
   
-  def backers(backer)
-    bk = Backer.new(backer)
-    @backers << bk
-  end
-  
-  def add_backer()
-    puts
-  end
-  
-  
 end
