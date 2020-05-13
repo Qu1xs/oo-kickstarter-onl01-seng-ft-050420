@@ -1,10 +1,10 @@
 class Project
   attr_accessor
-  attr_reader
+  attr_reader :backers
   attr_writer
   
-  def initialize
-    
+  def initialize()
+    @backers = []
   end
   
   
