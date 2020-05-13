@@ -1,9 +1,9 @@
 class Backer
   attr_accessor
-  attr_reader
+  attr_reader :name
   attr_writer
   
-  def initialize
+  def initialize(name)
     
   end
   
