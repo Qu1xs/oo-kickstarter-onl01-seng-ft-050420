@@ -4,7 +4,7 @@ class Backer
   attr_writer
   
   def initialize(name)
-    
+    @name = name
   end
   
   
